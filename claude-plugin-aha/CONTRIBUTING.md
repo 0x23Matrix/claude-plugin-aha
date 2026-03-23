@@ -4,7 +4,6 @@
 
 ## 可以贡献什么
 
-- **新增 insight 分类** — 编辑 `skills/aha/references/categories.md`，添加你认为有价值的分类
 - **改进 SKILL.md** — 让 insight 提取更准确、输出格式更好
 - **Bug 修复** — 发现问题直接提 Issue 或 PR
 - **多语言支持** — 改进不同语种下的输出质量
@@ -22,7 +21,6 @@
 
 - SKILL.md 修改后建议自己用 `/aha` 跑几轮验证效果
 - 保持 SKILL.md 在 500 行以内（Claude skill 的最佳实践）
-- 新增分类需要附上使用场景说明
 
 ## 提 Issue
 

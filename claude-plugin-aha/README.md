@@ -27,7 +27,13 @@ After a moment of realization in any conversation:
 Or with a hint about what you learned:
 
 ```
-/aha learned that Go interfaces are satisfied implicitly
+/aha learned that retention rate matters more than DAU for subscription products
+```
+
+When your knowledge base grows and categories get messy, retag to unify them:
+
+```
+/aha retag
 ```
 
 ## What Gets Saved
@@ -41,23 +47,9 @@ Each insight is stored as a markdown file in `~/.claude/aha/entries/` with:
 
 An `index.md` provides a chronological overview of all captured insights.
 
-## Categories
-
-Insights are auto-classified into categories like:
-
-| Category | Examples |
-|----------|---------|
-| `pattern` | Design patterns, coding idioms |
-| `architecture` | System design, scalability |
-| `debugging` | Root cause techniques, pitfalls |
-| `tool` | CLI tricks, workflow improvements |
-| `mental-model` | Conceptual breakthroughs |
-| `product` | UX insights, feature design |
-| ... | [See full list](skills/aha/references/categories.md) |
-
 ## The Knowledge Network
 
-As your collection grows, insights automatically link to related entries — forming a personal knowledge graph. An architecture insight from January might connect to a debugging insight from March, revealing patterns in how you think and learn.
+As your collection grows, insights automatically link to related entries — forming a personal knowledge graph. A user retention insight from January might connect to an onboarding insight from March, revealing patterns in how you think about product growth.
 
 ## Storage
 
@@ -65,8 +57,8 @@ As your collection grows, insights automatically link to related entries — for
 ~/.claude/aha/
 ├── index.md                          # Chronological index
 └── entries/
-    ├── 2026-01-15-implicit-interfaces.md
-    ├── 2026-01-22-event-sourcing-tradeoffs.md
+    ├── 2026-01-15-retention-over-dau-for-subscriptions.md
+    ├── 2026-01-22-user-onboarding-aha-moment-timing.md
     └── ...
 ```
 
