@@ -65,8 +65,8 @@ As your collection grows, insights automatically link to related entries — for
 ~/.claude/aha/
 ├── index.md                          # Chronological index
 └── entries/
-    ├── 2025-01-15-implicit-interfaces.md
-    ├── 2025-01-22-event-sourcing-tradeoffs.md
+    ├── 2026-01-15-implicit-interfaces.md
+    ├── 2026-01-22-event-sourcing-tradeoffs.md
     └── ...
 ```
 
