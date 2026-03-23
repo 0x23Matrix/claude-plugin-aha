@@ -1,7 +1,16 @@
 ---
 name: aha
-description: Automatically scan the current conversation, extract all "aha moments" and insights the user gained, and save them to a personal knowledge base. Use when the user says /aha or asks to capture learnings from this conversation.
-allowed-tools: [Read, Write, Edit, Glob, Grep, Bash]
+description: >
+  Automatically scan the current conversation, extract all "aha moments"
+  and insights the user gained, and save them to a personal knowledge base.
+  Use when the user says /aha or asks to capture learnings from this conversation.
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
 ---
 
 # Aha — Auto-Extract Insights from Conversations
